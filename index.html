@@ -30,8 +30,8 @@
         "one . three . five . seven"
         "one two three four five six seven"
         ". two . four . six ."
-        "left left left . . . ."
-        ". . . . right right right";
+        ". . left left left . ."
+        "right1 right1 right2 right2 right2 right3 right3";
       }
 
       #one{
@@ -86,6 +86,11 @@
       }
 
       #left{
+        /* grid-area: left;
+        text-align: center;
+        margin: 10vh 0;
+        padding-bottom: 1vh;
+        background-color: black; */
         grid-area: left;
         text-align: center;
         margin: 10vh 0;
@@ -93,11 +98,22 @@
         background-color: black;
       }
 
-      #right{
-        grid-area: right;
+      #right1{
+        grid-area: right1;
         text-align: center;
         margin: 0 0 10vh 0;
-        padding-bottom: 1vh;
+        background-color: black;
+      }
+      #right2{
+        grid-area: right2;
+        text-align: center;
+        margin: 0 0 10vh 0;
+        background-color: black;
+      }
+      #right3{
+        grid-area: right3;
+        text-align: center;
+        margin: 0 0 10vh 0;
         background-color: black;
       }
     </style>
@@ -180,12 +196,14 @@
         </video>
       </section>
 
-      <section id="right">
-        <video width="800" height="500" controls autoplay>
-          <source src="movie.mp4" type="video/mp4">
-          <source src="movie.ogg" type="video/ogg">
-        Your browser does not support the video tag.
-        </video>
+      <section id="right1">
+        <img src="right1.JPG" alt="Candle: Front View" width="500" height="500">
+      </section>
+      <section id="right2">
+        <img src="right2.JPG" alt="Candle: Front View Lit" width="600" height="500">
+      </section>
+      <section id="right3">
+        <img src="right3.JPG" alt="Candle: Back View" width="500" height="500">
       </section>
 
     </section>
