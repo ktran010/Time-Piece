@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Time Piece Project</title>
+
+    <style media="screen">
+      h1{
+
+        font-family: Lucida Console, "Courier New", monospace;
+        font-size: 3em;
+        text-align: center;
+        margin: 5vh 0;
+      }
+
+      p{
+        font-family: Lucida Console, "Courier New", monospace;
+        font-size: 1.5em;
+        text-align: center;
+        margin: 5vh 0;
+      }
+
+      #grid{
+        display: grid;
+        width: 98vw;
+        margin: 0;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-areas:
+        ". . video video video . ."
+        "one . three . five . seven"
+        "one two three four five six seven"
+        ". two . four . six ."
+        "left left left . . . ."
+        ". . . . right right right";
+      }
+
+      #one{
+        grid-area: one;
+        text-align: center;
+        margin: 0 0.5vw;
+        background-color: black;
+      }
+      #two{
+        grid-area: two;
+        text-align: center;
+        margin: 0 0.5vw;
+        background-color: black;
+      }
+      #three{
+        grid-area: three;
+        text-align: center;
+        margin: 0 0.5vw;
+        background-color: black;
+      }
+      #four{
+        grid-area: four;
+        text-align: center;
+        margin: 0 0.5vw;
+        background-color: black;
+      }
+      #five{
+        grid-area: five;
+        text-align: center;
+        margin: 0 0.5vw;
+        background-color: black;
+      }
+      #six{
+        grid-area: six;
+        text-align: center;
+        margin: 0 0.5vw;
+        background-color: black;
+      }
+      #seven{
+        grid-area: seven;
+        text-align: center;
+        margin: 0 0.5vw;
+        background-color: black;
+      }
+
+      #video{
+        grid-area: video;
+        text-align: center;
+        margin: 0 0 10vh 0;
+        padding-bottom: 1vh;
+        background-color: black;
+      }
+
+      #left{
+        grid-area: left;
+        text-align: center;
+        margin: 10vh 0;
+        padding-bottom: 1vh;
+        background-color: black;
+      }
+
+      #right{
+        grid-area: right;
+        text-align: center;
+        margin: 0 0 10vh 0;
+        padding-bottom: 1vh;
+        background-color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Candle Time Keeper</h1>
+    <p>Insert description of concept here</p>
+
+    <section id="grid">
+      <section id="video">
+        <video width="800" height="500" controls autoplay>
+          <source src="000.mp4" type="video/mp4">
+          <source src="000.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section id= "one">
+        <video width="250" height="500" autoplay loop muted>
+          <source src="001V2.mp4" type="video/mp4">
+          <source src="001V2.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section id= "two">
+        <video width="250" height="500" autoplay loop muted>
+          <source src="002V2.mp4" type="video/mp4">
+          <source src="002V2.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section id= "three">
+        <video width="250" height="500" autoplay loop muted>
+          <source src="003V2.mp4" type="video/mp4">
+          <source src="003V2.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section id= "four">
+        <video width="250" height="500" autoplay loop muted>
+          <source src="004V2.mp4" type="video/mp4">
+          <source src="004V2.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section id= "five">
+        <video width="250" height="500" autoplay loop muted>
+          <source src="005V2.mp4" type="video/mp4">
+          <source src="005V2.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section id= "six">
+        <video width="250" height="500" autoplay loop muted>
+          <source src="006V2.mp4" type="video/mp4">
+          <source src="006V2.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section id= "seven">
+        <video width="250" height="500" autoplay loop muted>
+          <source src="007V2.mp4" type="video/mp4">
+          <source src="007V2.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section id="left">
+        <video width="800" height="500" controls autoplay>
+          <source src="Compare.mp4" type="video/mp4">
+          <source src="Compare.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section id="right">
+        <video width="800" height="500" controls autoplay>
+          <source src="movie.mp4" type="video/mp4">
+          <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+        </video>
+      </section>
+
+    </section>
+
+  </body>
+</html>
