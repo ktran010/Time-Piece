@@ -1,0 +1,27 @@
+﻿What is a good exposure?
+* Clarity of image, adequate brightness and shadows in image.
+* Balance Dynamic Range (DR)
+   * High Dynamic Range (HDR): image that have multiple images layered over it
+* Adjusting the Exposure Triangle:
+   * ISO: Adjusting brightness of photograph
+      * DOWNSIDE: graininess, noise
+   * Aperture: how much of lens is exposed, how open is the lens
+      * The larger the denominator, the smaller the hole
+         * EX: f/32 < f/1.4.
+         * f/32 has a lens, small hole
+      * Measured in f-stops (full stops)
+      * Smaller aperture lens, smaller depth of field (everything from camera to foreground is sharp, anything else is out of focus)
+      * DOWNSIDE: depth of focus
+   * Shutter Speed: how fast the shutter closes. 
+      * DOWNSIDE: blur
+
+
+
+   * White Balance AKA Color Temperature:
+   * Choosing a certain color temperature so that camera knows what’s supposed to be white light in certain settings
+   * Flashes can be used to fill in shadows
+
+
+
+      * Color Space
+      * Use Adobe RGB for larger range of colors to capture photos with
